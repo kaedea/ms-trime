@@ -625,7 +625,7 @@ preset_keyboards:
     name: 26键默认布局
     width: 10
     height: 48
-    label_transform: uppercase
+    # label_transform: uppercase # 字母键盘强制显示大写
     ascii_mode: 0
     keys:
       - { click: q, long_click: 1, swipe_up: "1" }
@@ -790,8 +790,8 @@ preset_keys:
   VOLUME_UP: { label: 音量+, send: VOLUME_UP }
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
   # 编辑
-  Shift_L: { label: "▲", functional: false, send: Shift_L }
-  Shift_L3: { label: "▲", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
+  Shift_L: { label: "△", functional: false, send: Shift_L }
+  Shift_L3: { label: "△", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
   Return1: { label: "処刑", preview: "↩", functional: false, send: Return }
