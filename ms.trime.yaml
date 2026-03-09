@@ -631,6 +631,7 @@ preset_keyboards:
 
       - {
           click: Shift_L,
+          double_click: Shift_L3,
           composing: delimiter,
           width: 15,
           key_back_color: bc1,
@@ -732,6 +733,7 @@ preset_keys:
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
   # 编辑
   Shift_L: { label: "▲", functional: false, send: Shift_L }
+  Shift_L3: { label: "▲", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
   Return1: { label: "処刑", preview: "↩", functional: false, send: Return }
