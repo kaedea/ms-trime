@@ -664,6 +664,8 @@ preset_keyboards:
           long_click: Color_switch,
           swipe_up: Color_switch,
           width: 12.5,
+          round_corner: 24, #半圆：圆角=键高/2
+          label_symbol: " ", #空格覆盖 hint 区域，隐藏"换人"文字
         }
       - {
           click: Keyboard_number,
@@ -680,6 +682,7 @@ preset_keyboards:
           width: 15,
           key_back_color: bc4,
           key_text_color: tc4,
+          round_corner: 24, #半圆：圆角=键高/2
         }
 
   number:
