@@ -105,6 +105,20 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
+    name: "奈叶香/ナノカ・改"
+    back_color: 0x383B4A #背景
+    text_color: 0xFEF2F6 #文字
+    key_back_color: 0x2A2D35 #按键背景
+    hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
+    bc1: 0x1D1F25
+    tc1: 0xFEF2F6
+    bc2: 0x1D1F25
+    tc2: 0xFEF2F6
+    bc3: 0x1D1F25
+    tc3: 0xFEF2F6
+    bc4: 0x1D1F25
+    tc4: 0xFEF2F6
+  ema:
     name: "艾玛/エマ" #方案名称
     back_color: 0xF2B8CC #背景
     text_color: 0x000000 #文字
