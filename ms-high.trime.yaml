@@ -68,7 +68,7 @@ style:
   latin_font: latin.ttf #西文本体
   latin_locale: en_US #西文语言
   locale: zh_CN #缺省语言 zh_TW,zh_CN,zh_HK,""
-  keyboard_height: 220 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height: 250 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   key_symbol_offset_x: -5
   key_symbol_offset_y: 3
@@ -610,7 +610,7 @@ preset_keyboards:
     author: "暖暖"
     name: 26键默认布局
     width: 10
-    height: 40
+    height: 48
     label_transform: uppercase
     ascii_mode: 0
     keys:
@@ -686,7 +686,7 @@ preset_keyboards:
     author: "暖暖"
     name: 数字+
     width: 20
-    height: 40
+    height: 48
     ascii_mode: 1
     keys:
       - { click: "/", width: 13 }
