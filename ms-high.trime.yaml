@@ -91,13 +91,13 @@ style:
   vertical_gap: 4 #键盘行距
   enter_label_mode: 0 #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels: # 定义Enter键的文本
-    go: 赞同
-    done: 完成
-    next: 下个
-    pre: 上个
-    search: 疑问
-    send: 发送
-    default: 裁判 # 定义默认Enter键的文本
+    go: "ic@arrow_right"
+    done: "ic@check"
+    next: "ic@chevron_right"
+    pre: "ic@chevron_left"
+    search: "ic@magnify"
+    send: "ic@send"
+    default: "ic@keyboard_return" # 定义默认Enter键的文本
 
 fallback_colors:
   candidate_text_color: text_color
@@ -790,14 +790,14 @@ preset_keys:
   VOLUME_UP: { label: 音量+, send: VOLUME_UP }
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
   # 编辑
-  Shift_L: { label: "△", functional: false, send: Shift_L }
-  Shift_L3: { label: "△", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
+  Shift_L: { label: "ic@arrow_up", functional: false, send: Shift_L }
+  Shift_L3: { label: "ic@caps_lock", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
   Return1: { label: "処刑", preview: "↩", functional: false, send: Return }
   Hide: { label: 隐藏, send: BACK }
   BackSpace:
-    { label: "⌫", repeatable: true, functional: false, send: BackSpace }
+    { label: "ic@backspace", repeatable: true, functional: false, send: BackSpace }
   space:
     {
       repeatable: true,
