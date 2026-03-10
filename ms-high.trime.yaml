@@ -710,36 +710,34 @@ preset_keyboards:
     keys:
       - { click: "/", width: 13 }
       - { click: "+", width: 13 }
-      - { click: 1 }
-      - { click: 2 }
-      - { click: 3 }
+      - { click: 1, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 2, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 3, key_back_color: bc3, key_text_color: tc3 }
       - { click: "=", width: 13 }
 
       - { click: "*", width: 13 }
       - { click: "-", width: 13 }
-      - { click: 4 }
-      - { click: 5 }
-      - { click: 6 }
+      - { click: 4, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 5, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 6, key_back_color: bc3, key_text_color: tc3 }
       - { click: ., width: 13 }
 
       - { click: "%", width: 13 }
       - { click: "×", width: 13 }
-      - { click: 7, long_click: select_all }
-      - { click: 8, long_click: copy }
-      - { click: 9, long_click: paste_clip, swipe_down: paste }
+      - { click: 7, long_click: select_all, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 8, long_click: copy, key_back_color: bc3, key_text_color: tc3 }
+      - { click: 9, long_click: paste_clip, swipe_down: paste, key_back_color: bc3, key_text_color: tc3 }
       - {
           click: BackSpace,
           width: 13,
-          key_back_color: bc2,
-          key_text_color: tc2,
         }
 
-      - { click: liquid_keyboard_switch, long_click: Color_switch, width: 13 }
+      - { click: liquid_keyboard_switch, long_click: Color_switch, width: 13, round_corner: 24, label_symbol: " " }
       - { click: "÷", width: 13 }
-      - { click: Keyboard_default, key_back_color: bc1, key_text_color: tc1 }
-      - { click: 0, long_click: cut }
-      - { click: space1, key_back_color: bc3, key_text_color: tc3 }
-      - { click: Return, width: 13, key_back_color: bc4, key_text_color: tc4 }
+      - { click: Keyboard_default }
+      - { click: 0, long_click: cut, key_back_color: bc3, key_text_color: tc3 }
+      - { click: space1 }
+      - { click: Return, width: 13, round_corner: 24 }
 
   editor:
     author: "暖暖"
