@@ -398,7 +398,7 @@ liquid_keyboard:
   ascii:
     type: SINGLE
     name: 英文
-    keys: ",.?!:;/\\|*-+=^$`'\"^~@#%&()[]{}_"
+    keys: ",.?!:;/\\|*-+=<>$`'\"^~@#%&()[]{}_"
   yanwenzi:
     type: SINGLE
     name: "颜文字"
