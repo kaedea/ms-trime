@@ -1,9 +1,9 @@
 # Trime custom style settings
 # encoding: utf-8
 
-config_version: "3.0"
-name: 魔裁 #方案名称
-author: lost-42 #作者信息
+config_version: "3.1"
+name: 魔裁・改 #方案名称
+author: lost-42 | Kaede #作者信息
 
 #界面风格、功能开关
 style:
