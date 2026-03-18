@@ -645,7 +645,7 @@ preset_keyboards:
       - { click: a, long_click: select_all, swipe_up: select_all }
       - { click: s, long_click: "`", swipe_up: "`" }
       - { click: d, long_click: "-", swipe_up: "-" }
-      - { click: f, long_click: "_", swipe_up: "_" }
+      - { click: f, long_click: "!", swipe_up: "!" }
       - { click: g, long_click: "@", swipe_up: "@" }
       - { click: h, long_click: "(", swipe_up: "(" }
       - { click: j, long_click: ")", swipe_up: ")" }
@@ -661,7 +661,7 @@ preset_keyboards:
           key_back_color: bc1,
           key_text_color: tc1,
         }
-      - { click: z, long_click: "~", swipe_up: "~" }
+      - { click: z, long_click: "&", swipe_up: "&" }
       - { click: x, long_click: cut, swipe_up: cut }
       - { click: c, long_click: copy, swipe_up: copy }
       - { click: v, long_click: paste, swipe_up: paste }
