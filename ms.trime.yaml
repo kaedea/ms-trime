@@ -350,7 +350,7 @@ liquid_keyboard:
       - ‘
       - ···
       - ……
-      - { click: "——" }
+      - { click: "-" }
       - { click: "——", label: "破折" }
       - （
       - ）
