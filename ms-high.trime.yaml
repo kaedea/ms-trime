@@ -684,7 +684,9 @@ preset_keyboards:
 
       - {
           click: Shift_L,
+          long_click: Shift_L,
           double_click: Shift_L3,
+          label_symbol: " ",
           composing: delimiter,
           width: 15,
           key_back_color: bc1,
