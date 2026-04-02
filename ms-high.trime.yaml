@@ -110,6 +110,8 @@ preset_color_schemes:
     text_color: 0xFEF2F6 #文字
     key_back_color: 0x2A2D35 #按键背景
     hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
+    popup_back_color: 0x1D1F25 #popup深色背景
+    popup_text_color: 0xFEF2F6 #popup文字颜色
     bc1: 0x1D1F25
     tc1: 0xFEF2F6
     bc2: 0x1D1F25
@@ -124,6 +126,8 @@ preset_color_schemes:
     text_color: 0x000000 #文字
     key_back_color: 0xF0F4F9 #按键背景
     hilited_candidate_back_color: 0xED8DA7 #候选高亮背景
+    popup_back_color: 0x29323F
+    popup_text_color: 0xF0F4F9
     bc1: 0x29323F # shift
     tc1: 0xF0F4F9
     bc2: 0x29323F # BackSpace
@@ -138,6 +142,8 @@ preset_color_schemes:
     text_color: 0xFAE9EF #文字
     key_back_color: 0xA00B2C #按键背景
     hilited_candidate_back_color: 0x222B38 #候选高亮背景
+    popup_back_color: 0x700E26
+    popup_text_color: 0xFAE9EF
     bc1: 0x700E26
     tc1: 0xFAE9EF
     bc2: 0x700E26
@@ -152,6 +158,8 @@ preset_color_schemes:
     text_color: 0xDDE9F7 #文字
     key_back_color: 0x25325D #按键背景
     hilited_candidate_back_color: 0x4C567A #候选高亮背景
+    popup_back_color: 0xC28651
+    popup_text_color: 0xDDE9F7
     bc1: 0xC28651
     tc1: 0xDDE9F7
     bc2: 0xC28651
@@ -166,6 +174,8 @@ preset_color_schemes:
     text_color: 0x262A3B #文字
     key_back_color: 0xC7C3DB #按键背景
     hilited_candidate_back_color: 0x928CB1 #候选高亮背景
+    popup_back_color: 0xE95F80
+    popup_text_color: 0xF2F1F8
     bc1: 0xE95F80
     tc1: 0xF2F1F8
     bc2: 0x44B9ED
@@ -180,6 +190,8 @@ preset_color_schemes:
     text_color: 0xF9EBF0 #文字
     key_back_color: 0x45424A #按键背景
     hilited_candidate_back_color: 0xB2948A #候选高亮背景
+    popup_back_color: 0xE2A05E
+    popup_text_color: 0xF9EBF0
     bc1: 0xE2A05E
     tc1: 0xF9EBF0
     bc2: 0xE2A05E
@@ -194,6 +206,8 @@ preset_color_schemes:
     text_color: 0x5D555D #文字
     key_back_color: 0xFDF3F9 #按键背景
     hilited_candidate_back_color: 0xE0B887 #候选高亮背景
+    popup_back_color: 0x9BABCC
+    popup_text_color: 0xFDF3F9
     bc1: 0x9BABCC
     tc1: 0xFDF3F9
     bc2: 0x9BABCC
@@ -208,6 +222,8 @@ preset_color_schemes:
     text_color: 0xE5E9EF #文字
     key_back_color: 0x8565A9 #按键背景
     hilited_candidate_back_color: 0x9D81B8 #候选高亮背景
+    popup_back_color: 0x9D81B8
+    popup_text_color: 0xE5E9EF
     bc1: 0x9D81B8
     tc1: 0xE5E9EF
     bc2: 0x9D81B8
@@ -222,6 +238,8 @@ preset_color_schemes:
     text_color: 0xFEF2F6 #文字
     key_back_color: 0x2A2D35 #按键背景
     hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
+    popup_back_color: 0x2A2D35
+    popup_text_color: 0xFEF2F6
     bc1: 0x2A2D35
     tc1: 0xFEF2F6
     bc2: 0x2A2D35
@@ -236,6 +254,8 @@ preset_color_schemes:
     text_color: 0xB21D26 #文字
     key_back_color: 0x2F313D #按键背景
     hilited_candidate_back_color: 0x443A49 #候选高亮背景
+    popup_back_color: 0x443A49
+    popup_text_color: 0xB21D26
     bc1: 0x443A49
     tc1: 0xB21D26
     bc2: 0x443A49
@@ -250,6 +270,8 @@ preset_color_schemes:
     text_color: 0x323745 #文字
     key_back_color: 0xF2F1F8 #按键背景
     hilited_candidate_back_color: 0xB9CFEC #候选高亮背景
+    popup_back_color: 0xFAB74F
+    popup_text_color: 0x323745
     bc1: 0xFAB74F
     tc1: 0x323745
     bc2: 0xFAB74F
@@ -264,6 +286,8 @@ preset_color_schemes:
     text_color: 0x4F4848 #文字
     key_back_color: 0xFAE7C3 #按键背景
     hilited_candidate_back_color: 0xC1C59A #候选高亮背景
+    popup_back_color: 0xF1C45E
+    popup_text_color: 0x4F4848
     bc1: 0xF1C45E
     tc1: 0x4F4848
     bc2: 0xF1C45E
@@ -278,6 +302,8 @@ preset_color_schemes:
     text_color: 0xD3441E #文字
     key_back_color: 0x3D363B #按键背景
     hilited_candidate_back_color: 0x7E819E #候选高亮背景
+    popup_back_color: 0xD3441E
+    popup_text_color: 0x3D363B
     bc1: 0xD3441E
     tc1: 0x3D363B
     bc2: 0xD3441E
@@ -292,6 +318,8 @@ preset_color_schemes:
     text_color: 0x1D232F #文字
     key_back_color: 0xE9C8CB #按键背景
     hilited_candidate_back_color: 0xC7CEDC #候选高亮背景
+    popup_back_color: 0x606474
+    popup_text_color: 0xFDFCFE
     bc1: 0x606474
     tc1: 0xFDFCFE
     bc2: 0x606474
@@ -791,20 +819,20 @@ preset_keys:
   VOLUME_UP: { label: 音量+, send: VOLUME_UP }
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
   # 编辑
-  Shift_L: { label: "ic@arrow_up", functional: false, send: Shift_L }
+  Shift_L: { label: "ic@arrow_up", preview: "", functional: false, send: Shift_L }
   Shift_L3: { label: "ic@caps_lock", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
-  Return1: { label: "処刑", preview: "↩", functional: false, send: Return }
+  Return1: { label: "ic@check", preview: "↩", functional: false, send: Return }
   Hide: { label: 隐藏, send: BACK }
   BackSpace:
-    { label: "ic@backspace", repeatable: true, functional: false, send: BackSpace }
+    { label: "ic@backspace", preview: "", repeatable: true, functional: false, send: BackSpace }
   space:
     {
       repeatable: true,
       preview: "⎵",
       functional: false,
-      label: "SPACE",
+      label: "⎵",
       send: space,
     }
   space1: { repeatable: true, label: "⎵", functional: false, send: space }
