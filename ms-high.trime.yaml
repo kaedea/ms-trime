@@ -822,7 +822,7 @@ preset_keys:
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
   # 编辑
   Shift_L: { label: "ic@arrow_up", preview: "", functional: false, send: Shift_L }
-  Shift_L3: { label: "ic@caps_lock", preview: "⇪", functional: false, send: Shift_L, shift_lock: click }
+  Shift_L3: { label: "ic@caps_lock", preview: "", functional: false, send: Shift_L, shift_lock: click }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
   Return1: { label: "ic@check", preview: "↩", functional: false, send: Return }
@@ -895,7 +895,7 @@ preset_keys:
   Keyboard_switch:
     { label: 键盘, functional: true, send: Eisu_toggle, select: .next }
   Keyboard_number:
-    { label: 123, functional: false, send: Eisu_toggle, select: number }
+    { label: 123, preview: "123", functional: false, send: Eisu_toggle, select: number }
   Keyboard_symbols:
     { label: 更多, functional: false, send: Eisu_toggle, select: symbols }
   Keyboard_move: { label: ❖, functional: true, send: Eisu_toggle, select: move }
@@ -916,7 +916,7 @@ preset_keys:
       option: "-1",
     } #退出liquidkeyboard
   liquid_keyboard_switch:
-    { label: ⌘, send: function, command: liquid_keyboard, option: "history" }
+    { label: ⌘, preview: "", send: function, command: liquid_keyboard, option: "history" }
   liquid_keyboard_emoji:
     { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
   menu_keyboard: { label: 菜单, send: function, command: menu_keyboard }
