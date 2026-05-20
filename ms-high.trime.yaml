@@ -19,11 +19,11 @@ style:
   color_scheme: default #配色方案
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
-  comment_on_top: true #编码提示在上方或右侧
+  comment_position: TOP #编码提示位置：RIGHT|TOP|OVERLAY
   comment_text_size: 12 #编码提示字号
   hanb_font: hanb.ttf #扩充字体
   horizontal: true #水平模式
-  horizontal_gap: 12 #键水平间距
+  horizontal_gap: 4 #键水平间距
   layout:
     position: fixed #候选窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
     min_length: 4 #候选窗口最小词长
@@ -79,7 +79,7 @@ style:
   popup_key_height: 48    #气泡内按键区域高度
   popup_text_size: 23     #气泡字号
   proximity_correction: true #按键纠错
-  reset_ascii_mode: false #显示键盘时重置为中文状态
+  reset_ascii_mode_on_focus_change: false #焦点变化时重置为中文状态
   round_corner: 8 #按键圆角半径
   shadow_radius: 0.0 #按键阴影半径
   speech_opencc_config: none #语音输入简繁转换
@@ -580,47 +580,54 @@ liquid_keyboard:
 tool_bar:
   button_spacing: 5 # 按钮间距
 
+  toolbar_button_background: &toolbar_button_background
+    type: circle # 高亮形状 (可选值: circle|rectangle)
+    corner_radius: 10 # 圆角半径
+    normal: 0x00 # 正常状态背景颜色
+    highlight: hilited_candidate_button_color # 高亮状态背景色
+    vertical_inset: 4 # 垂直方向内缩量
+    horizontal_inset: 0 # 水平方向内缩量
+
   # 左侧固定主按钮配置
   primary_button:
     # 背景样式设置
-    background:
-      type: circle # 高亮形状 (可选值: circle|rectangle)
-      corner_radius: 10 # 圆角半径
-      bg_normal: 0x00 # 正常状态背景颜色
-      bg_highlight: hilited_candidate_button_color # 高亮状态背景色
-      vertical_inset: 4 # 垂直方向内缩量
-      horizontal_inset: 0 # 水平方向内缩量
+    background: *toolbar_button_background
     # 前景内容设置
     foreground:
       style: "ic@dots_horizontal" # 内置质感设计图标样式（以ic@开头）
-      fg_normal: candidate_text_color # 正常状态前景色 (本地图片不允许着色)
+      normal: candidate_text_color # 正常状态前景色 (本地图片不允许着色)
       padding: 10 # 前景内容与背景边界的内边距
     # 按钮点击事件
     action: menu_keyboard
 
   hide_button: &hide_button
+    background: *toolbar_button_background
     foreground:
       style: "ic@keyboard_close"
-      fg_normal: candidate_text_color
+      normal: candidate_text_color
     action: Hide
 
   emoji_button: &emoji_button
+    background: *toolbar_button_background
     foreground:
       style: "ic@emoticon"
     # 前景样式可以为空，使用默认样式，按钮将显示为 action 的 label
     action: liquid_keyboard_emoji
 
   clipboard_button: &clipboard_button
+    background: *toolbar_button_background
     foreground:
       style: "ic@clipboard"
     action: clipboard_window
 
   edit_button: &edit_button
+    background: *toolbar_button_background
     foreground:
       style: "ic@cursor_text"
     action: Keyboard_editor
 
   ascii_mode_button: &ascii_mode_button
+    background: *toolbar_button_background
     foreground:
       option_styles: ["中", "En"] # 样式也可以为表，将根据 action 的 toggle 决定
       font_size: 18 # 按钮字体大小
@@ -628,11 +635,13 @@ tool_bar:
     action: Mode_switch
 
   full_shape_button: &full_shape_button
+    background: *toolbar_button_background
     foreground:
       option_styles: ["ic@moon_new", "ic@moon_full"]
     action: Zenkaku_Hankaku
 
   menu_button: &menu_button
+    background: *toolbar_button_background
     foreground:
       style: "ic@translate"
     action: Menu
