@@ -10,33 +10,29 @@ trime 同文输入法主题, inspired by [魔法少女的魔女审判](https://m
 
 将 `ms.trime.yaml` 复制到 `trime` 的配置目录下, 重新部署后即可使用
 
-本人没有在手机上进行大量文本编辑的需求, 在参考其他配置时移除了许多不需要的功能, 如果有需要可以参考这些更完善的配置
-- [osfans/trime](https://github.com/osfans/trime) 中的 trime.yaml 和 tongwenfeng.trime.yaml
-- [mytrime](https://github.com/chwt163/mytrime)
-
 ## 截图
 
 以艾玛的主题展示下常用的界面, 其他角色的主题就只展示主键盘了
 
-|主键盘|数字键盘|符号键盘|
-|------|--------|---------|
-|![01](./screenshots/01.jpg)|![02](./screenshots/02.jpg)|![03](./screenshots/03.jpg)|
+|主键盘|数字键盘|符号键盘|编辑键盘|
+|------|--------|---------|---------|
+|![01](./screenshots/01.webp)|![02](./screenshots/02.webp)|![03](./screenshots/03.webp)|![16](./screenshots/16.webp)|
 
 |希罗/ヒロ|安安/アンアン|诺亚/ノア|
 |------|--------|---------|
-| ![04](./screenshots/04.jpg) | ![05](./screenshots/05.jpg) |![06](./screenshots/06.jpg)|
+| ![04](./screenshots/04.webp) | ![05](./screenshots/05.webp) |![06](./screenshots/06.webp)|
 
 |蕾雅/レイア|米莉亚/ミリア|玛格/マーゴ|
 |------|--------|---------|
-|![07](./screenshots/07.jpg) | ![08](./screenshots/08.jpg) |![09](./screenshots/09.jpg)|
+|![07](./screenshots/07.webp) | ![08](./screenshots/08.webp) |![09](./screenshots/09.webp)|
 
 |奈叶香/ナノカ|亚里沙/アリサ|雪莉/シェリー|
 |------|--------|---------|
-|![10](./screenshots/10.jpg)|![11](./screenshots/11.jpg)|![12](./screenshots/12.jpg)|
+|![10](./screenshots/10.webp)|![11](./screenshots/11.webp)|![12](./screenshots/12.webp)|
 
 |汉娜/ハンナ|可可/ココ|梅露露/メルル|
 |------|--------|---------|
-|![13](./screenshots/13.jpg)|![14](./screenshots/14.jpg)|![15](./screenshots/15.jpg)|
+|![13](./screenshots/13.webp)|![14](./screenshots/14.webp)|![15](./screenshots/15.webp)|
 
 ## TODO
 
