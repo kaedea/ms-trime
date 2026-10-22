@@ -927,12 +927,12 @@ preset_keys:
   liquid_keyboard_switch:
     { label: ⌘, preview: "", send: function, command: liquid_keyboard, option: "history" }
   liquid_keyboard_emoji:
-    { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
-  menu_keyboard: { label: 菜单, send: function, command: menu_keyboard }
+    { label: 🙂, send: FUNCTION, command: liquid_keyboard, option: "emoji" }
+  menu_keyboard: { label: 菜单, send: FUNCTION, command: menu_keyboard }
   clipboard_window:
     {
       label: "剪贴",
-      send: function,
+      send: FUNCTION,
       command: "liquid_keyboard",
       option: "剪贴",
     }
@@ -947,11 +947,11 @@ preset_keys:
     {
       toggle: ascii_mode,
       functional: false,
-      send: Mode_switch,
+      send: SWITCH_CHARSET,
       states: [中文, 西文],
     }
   Zenkaku_Hankaku:
-    { toggle: full_shape, send: Mode_switch, states: [半角, 全角] }
+    { toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角] }
   Henkan: { toggle: simplification, send: Mode_switch, states: [汉字, 汉字] }
   Charset_switch:
     { toggle: extended_charset, send: Mode_switch, states: [常用, 增广] }
@@ -966,7 +966,7 @@ preset_keys:
   Color_switch: { label: 换人, functional: false, send: PROG_RED }
   Help: { label: 说明, send: Help }
   Info: { label: 关于, send: INFO }
-  Menu: { label: 方案, functional: false, send: Menu }
+  Menu: { label: 方案, functional: false, send: MENU }
   Settings: { label: 设置, functional: false, send: SETTINGS }
   # trime命令
   Date: { label: 日期, send: function, command: date, option: " yyyy-MM-dd " }
