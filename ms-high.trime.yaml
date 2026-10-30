@@ -328,6 +328,42 @@ preset_color_schemes:
     tc3: 0xFDFCFE
     bc4: 0x606474
     tc4: 0xFDFCFE
+  hotaru_light:
+    name: "流萤 Light/ホタル" #星穹铁道·流萤
+    back_color: 0xDCEFE7 #背景：薄荷萤绿
+    text_color: 0x1F4038 #文字：深苔绿
+    key_back_color: 0xF7FBF9 #按键背景：萤白
+    hilited_candidate_back_color: 0xA9DCC4 #候选高亮背景：浅薄荷
+    popup_back_color: 0xE8C86B #popup背景：流萤琥珀
+    popup_text_color: 0x3D3222 #popup文字颜色
+    on_key_back_color: 0xE8C86B #Shift锁定背景：流萤琥珀（点亮）
+    on_key_text_color: 0x3D3222 #Shift锁定文字
+    bc1: 0x54B08F # shift：萤绿
+    tc1: 0xF6FBF8
+    bc2: 0x54B08F # BackSpace
+    tc2: 0xF6FBF8
+    bc3: 0x54B08F # space
+    tc3: 0xF6FBF8
+    bc4: 0x54B08F # enter
+    tc4: 0xF6FBF8
+  hotaru_dark:
+    name: "流萤 Dark/ホタル" #星穹铁道·流萤（SAM）
+    back_color: 0x14201C #背景：深墨萤黑
+    text_color: 0xD9F2E6 #文字：薄荷白
+    key_back_color: 0x24352F #按键背景：暗萤绿
+    hilited_candidate_back_color: 0x0F2A24 #候选高亮背景：深萤绿
+    popup_back_color: 0xE8C86B #popup背景：流萤琥珀
+    popup_text_color: 0x3D3222 #popup文字颜色
+    on_key_back_color: 0xE8C86B #Shift锁定背景：流萤琥珀（点亮）
+    on_key_text_color: 0x3D3222 #Shift锁定文字
+    bc1: 0x3E8A72 # shift：深萤绿
+    tc1: 0xE8F6EE
+    bc2: 0x3E8A72 # BackSpace
+    tc2: 0xE8F6EE
+    bc3: 0x3E8A72 # space
+    tc3: 0xE8F6EE
+    bc4: 0x3E8A72 # enter
+    tc4: 0xE8F6EE
 
 liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
@@ -700,6 +736,7 @@ preset_keyboards:
           width: 15,
           key_back_color: bc1,
           key_text_color: tc1,
+          round_corner: 16, #介于默认8与Enter半圆24之间
         }
       - { click: z, long_click: "&", swipe_up: "&" }
       - { click: x, long_click: ";", swipe_up: ";" }
@@ -713,6 +750,9 @@ preset_keyboards:
           width: 15,
           key_back_color: bc2,
           key_text_color: tc2,
+          key_text_size: 23.5, #放大退格图标，与Shift图标视觉重量对齐
+          key_text_offset_x: -1, #backspace字形视觉偏右，向左轻微校正
+          round_corner: 16, #介于默认8与Enter半圆24之间
         }
 
       - {
@@ -770,6 +810,7 @@ preset_keyboards:
       - {
           click: BackSpace,
           width: 13,
+          key_text_offset_x: -1, #backspace字形视觉偏右，向左轻微校正
         }
 
       - { click: liquid_keyboard_switch, long_click: Color_switch, width: 13, round_corner: 24, label_symbol: " " }
@@ -802,7 +843,7 @@ preset_keyboards:
       - { click: Home }
       - { click: Down, key_back_color: bc3, key_text_color: tc3 }
       - { click: End }
-      - { click: BackSpace, width: 20 }
+      - { click: BackSpace, width: 20, key_text_offset_x: -1 }
 
       - { click: paste }
       - { click: undo }
@@ -867,7 +908,7 @@ preset_keys:
   paste_text: { label: 貼上文本, send: Control+Shift+Alt+v } #>=Android 6.0
   share_text: { label: 分享文本, send: Control+Alt+s } #>=Android 6.0
   redo: { label: 重做, functional: false, send: Control+Shift+z } #>=Android 6.0
-  undo: { label: 撤銷, functional: false, send: Control+z } #>=Android 6.0
+  undo: { label: 撤消, functional: false, send: Control+z } #>=Android 6.0
   delimiter: { label: 分词, text: "'" }
   x1: { text: "{Home}{Right}{Right}", label: 单字, functional: false }
   x2:

@@ -38,6 +38,10 @@ trime 同文输入法主题, inspired by [魔法少女的魔女审判](https://m
 |------|--------|---------|
 |![13](./screenshots/13.jpg)|![14](./screenshots/14.jpg)|![15](./screenshots/15.jpg)|
 
+|流萤 Light/ホタル|流萤 Dark/ホタル| |
+|------|------|------|
+|![16](./screenshots/16.jpg)|![17](./screenshots/17.jpg)| |
+
 ## TODO
 
 - [ ] 希望能支持双键
