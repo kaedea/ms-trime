@@ -680,11 +680,11 @@ preset_keyboards:
       - { click: p, long_click: 0, swipe_up: "0" }
 
       - { width: 5 }
-      - { click: a, long_click: "*", swipe_up: "*" }
-      - { click: s, long_click: "`", swipe_up: "`" }
-      - { click: d, long_click: "-", swipe_up: "-" }
-      - { click: f, long_click: "!", swipe_up: "!" }
-      - { click: g, long_click: "@", swipe_up: "@" }
+      - { click: a, long_click: "`", swipe_up: "`" }
+      - { click: s, long_click: "!", swipe_up: "!" }
+      - { click: d, long_click: "@", swipe_up: "@" }
+      - { click: f, long_click: "*", swipe_up: "*" }
+      - { click: g, long_click: "-", swipe_up: "-" }
       - { click: h, long_click: "(", swipe_up: "(" }
       - { click: j, long_click: ")", swipe_up: ")" }
       - { click: k, long_click: "'", swipe_up: "'" }
@@ -702,10 +702,10 @@ preset_keyboards:
           key_text_color: tc1,
         }
       - { click: z, long_click: "&", swipe_up: "&" }
-      - { click: x, long_click: "<", swipe_up: "<" }
-      - { click: c, long_click: ">", swipe_up: ">" }
-      - { click: v, long_click: ";", swipe_up: ";" }
-      - { click: b, long_click: ":", swipe_up: ":" }
+      - { click: x, long_click: ";", swipe_up: ";" }
+      - { click: c, long_click: ":", swipe_up: ":" }
+      - { click: v, long_click: "<", swipe_up: "<" }
+      - { click: b, long_click: ">", swipe_up: ">" }
       - { click: n, long_click: ",", swipe_up: "," }
       - { click: m, long_click: ".", swipe_up: "." }
       - {
