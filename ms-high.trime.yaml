@@ -105,21 +105,25 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: "奈叶香/ナノカ・改"
-    back_color: 0x383B4A #背景
-    text_color: 0xFEF2F6 #文字
-    key_back_color: 0x2A2D35 #按键背景
-    hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
-    popup_back_color: 0x1D1F25 #popup深色背景
-    popup_text_color: 0xFEF2F6 #popup文字颜色
-    bc1: 0x1D1F25
-    tc1: 0xFEF2F6
-    bc2: 0x1D1F25
-    tc2: 0xFEF2F6
-    bc3: 0x1D1F25
-    tc3: 0xFEF2F6
-    bc4: 0x1D1F25
-    tc4: 0xFEF2F6
+    name: "流萤 Dark/ホタル" #星穹铁道·流萤（SAM），兼作主题默认配色
+    light_scheme: hotaru_light #跟随系统昼夜：日间切流萤 Light
+    dark_scheme: default #跟随系统昼夜：夜间保持流萤 Dark（即本方案）
+    back_color: 0x14201C #背景：深墨萤黑
+    text_color: 0xD9F2E6 #文字：薄荷白
+    key_back_color: 0x24352F #按键背景：暗萤绿
+    hilited_candidate_back_color: 0x0F2A24 #候选高亮背景：深萤绿
+    popup_back_color: 0xE8C86B #popup背景：流萤琥珀
+    popup_text_color: 0x3D3222 #popup文字颜色
+    on_key_back_color: 0xE8C86B #Shift锁定背景：流萤琥珀（点亮）
+    on_key_text_color: 0x3D3222 #Shift锁定文字
+    bc1: 0x3E8A72 # shift：深萤绿
+    tc1: 0xE8F6EE
+    bc2: 0x3E8A72 # BackSpace
+    tc2: 0xE8F6EE
+    bc3: 0x3E8A72 # space
+    tc3: 0xE8F6EE
+    bc4: 0x3E8A72 # enter
+    tc4: 0xE8F6EE
   ema:
     name: "艾玛/エマ" #方案名称
     back_color: 0xF2B8CC #背景
@@ -248,6 +252,22 @@ preset_color_schemes:
     tc3: 0xFEF2F6
     bc4: 0x2A2D35
     tc4: 0xFEF2F6
+  nanoka_kai:
+    name: "奈叶香/ナノカ・改"
+    back_color: 0x383B4A #背景
+    text_color: 0xFEF2F6 #文字
+    key_back_color: 0x2A2D35 #按键背景
+    hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
+    popup_back_color: 0x1D1F25 #popup深色背景
+    popup_text_color: 0xFEF2F6 #popup文字颜色
+    bc1: 0x1D1F25
+    tc1: 0xFEF2F6
+    bc2: 0x1D1F25
+    tc2: 0xFEF2F6
+    bc3: 0x1D1F25
+    tc3: 0xFEF2F6
+    bc4: 0x1D1F25
+    tc4: 0xFEF2F6
   arisa:
     name: "亚里沙/アリサ"
     back_color: 0x9C9CA7 #背景
@@ -346,24 +366,6 @@ preset_color_schemes:
     tc3: 0xF6FBF8
     bc4: 0x54B08F # enter
     tc4: 0xF6FBF8
-  hotaru_dark:
-    name: "流萤 Dark/ホタル" #星穹铁道·流萤（SAM）
-    back_color: 0x14201C #背景：深墨萤黑
-    text_color: 0xD9F2E6 #文字：薄荷白
-    key_back_color: 0x24352F #按键背景：暗萤绿
-    hilited_candidate_back_color: 0x0F2A24 #候选高亮背景：深萤绿
-    popup_back_color: 0xE8C86B #popup背景：流萤琥珀
-    popup_text_color: 0x3D3222 #popup文字颜色
-    on_key_back_color: 0xE8C86B #Shift锁定背景：流萤琥珀（点亮）
-    on_key_text_color: 0x3D3222 #Shift锁定文字
-    bc1: 0x3E8A72 # shift：深萤绿
-    tc1: 0xE8F6EE
-    bc2: 0x3E8A72 # BackSpace
-    tc2: 0xE8F6EE
-    bc3: 0x3E8A72 # space
-    tc3: 0xE8F6EE
-    bc4: 0x3E8A72 # enter
-    tc4: 0xE8F6EE
 
 liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
